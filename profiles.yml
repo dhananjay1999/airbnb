@@ -1,0 +1,16 @@
+airbnb:
+  outputs:
+    dev:
+      type: snowflake
+      account: vpc87760.us-east-1
+      user: DHANANJAY2705
+      password: "@Dhananjay!2730"
+      role: SYSADMIN
+      database: ANALYTICS
+      warehouse: COMPUTE_WH
+      schema: DBT
+      threads: 1
+      client_session_keep_alive: False
+  target: dev
+
+
